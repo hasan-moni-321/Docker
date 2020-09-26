@@ -1,0 +1,20 @@
+#######################################
+# Run those code into terminal
+#######################################
+
+
+
+1) Building the docker images
+
+sudo docker build -t money_api .       (money_api is the name and don't miss dot)
+
+
+2) to see the docker images
+
+sudo docker images
+
+
+3) Running the docker
+
+sudo docker run -p 8000:8000 money_api
+
